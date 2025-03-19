@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -14,7 +14,8 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -23,40 +24,57 @@
     <!-- Main Content -->
     <main>
         <section id="home">
-            <h1>Welcome to Our Website</h1>
-            <p>We offer high-quality services. Explore our website to learn more about what we do.</p>
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate developer. Explore my work and get in touch.</p>
         </section>
 
         <section id="about">
-            <h2>About Us</h2>
-            <p>We are a team of dedicated professionals working to provide exceptional services to our clients.</p>
+            <h2>About Me</h2>
+            <p>I am a full-stack developer with a love for creating clean and efficient code. I have experience working with various technologies, and I am always looking to learn and improve.</p>
         </section>
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Explore the wide range of services we offer, from consulting to custom solutions tailored to your needs.</p>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>Python, Django</li>
+                <li>Database Management (MySQL, MongoDB)</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A web application built with React and Node.js.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>An e-commerce platform built using Django and PostgreSQL.</p>
+            </div>
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2>Contact</h2>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-                
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-                
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Submit</button>
+
+                <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Your Company</p>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
 
 </body>
